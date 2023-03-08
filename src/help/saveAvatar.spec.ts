@@ -1,7 +1,7 @@
-import axios from "axios";
+import axios from 'axios';
 import * as crypto from 'crypto';
 import * as fs from 'fs';
-import { saveAvatar } from "./saveAvatar";
+import { saveAvatar } from './saveAvatar';
 
 jest.mock('axios');
 jest.mock('crypto');
