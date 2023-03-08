@@ -4,7 +4,7 @@ import { UserController } from './user.controller';
 import { UserService } from './user.service';
 import mongoose from 'mongoose';
 
-describe('UsersController', () => {
+describe('UserController', () => {
   let controller: UserController;
 
   const mockUsersService = {
